@@ -141,6 +141,7 @@ class HelpTicket(models.Model):
                                   string='Ticket Type', help='Ticket Type')
     team_head = fields.Many2one('res.users', string='Team Leader',
                                 compute='_compute_team_head',
+                                store=True,
                                 help='Team Leader Name')
     assigned_user = fields.Many2one(
         'res.users',
