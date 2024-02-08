@@ -39,7 +39,9 @@
             <tree>
                 <field name="name"/>
                 <field name="sequence"/>
+                <field name="starting_stage"/>
                 <field name="closing_stage"/>
+                <field name="cancel_stage"/>
                 <field name="fold"/>
             </tree>
         </field>
